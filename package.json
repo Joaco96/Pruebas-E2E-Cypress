@@ -1,0 +1,12 @@
+{
+  "scripts":{
+    "report": "npx cypress run --spec cypress/e2e/register.cy.js --browser chrome"
+  },
+  "dependencies": {
+    "cypress": "^13.13.2"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-on-fix": "^1.0.3"
+  }
+}
