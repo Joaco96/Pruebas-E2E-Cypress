@@ -55,6 +55,10 @@ cy.url().should('equal', 'http://localhost:3002/');
 cy.get('[data-cy="avatar"]').should('exist');
 ```
 
+## Reporte de test
+Se podrá verificar el reporte de los testeos en la siguiente ruta:
+#### Pruebas-E2E-Cypress/cypress/reports/html/index.html
+
 ## Pruebas Realizadas
 ### Validación de Campos Vacíos
 Verifica que se muestren los errores de validación cuando se intenta enviar el formulario sin completar ningún campo.
