@@ -23,7 +23,6 @@ npx cypress open
 Esto abrirá la interfaz gráfica de Cypress donde podrás seleccionar y ejecutar las pruebas.
 
 ## Buenas Prácticas
-Para ejecutar las pruebas, utiliza el siguiente comando:
 
 1. Visitar la página antes de cada prueba: Utilizamos beforeEach para asegurarnos de que cada prueba comience con la página de registro en su estado inicial.
 
